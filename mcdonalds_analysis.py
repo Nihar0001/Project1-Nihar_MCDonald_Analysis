@@ -14,10 +14,10 @@ matplotlib.use('Agg')  # Change to 'TkAgg' if interactive GUI is needed
 
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
-from sklearn.metrics import adjusted_rand_score
-from sklearn.tree import DecisionTreeClassifier, plot_tree
-from sklearn.preprocessing import LabelEncoder
-from scipy.stats import gaussian_kde
+#from sklearn.metrics import adjusted_rand_score
+#from sklearn.tree import DecisionTreeClassifier, plot_tree
+#from sklearn.preprocessing import LabelEncoder
+#from scipy.stats import gaussian_kde
 import os # ADDED: Import os to handle file paths
 
 class McDonaldAnalysis:
